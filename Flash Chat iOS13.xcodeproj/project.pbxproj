@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,15 @@
 		0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818E235DF01000E35CAF /* LoginViewController.swift */; };
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
 		0B62819E235F0F4D00E35CAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B62819D235F0F4D00E35CAF /* README.md */; };
+		2EE11E0F2FC5BDEC00CB9221 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EE11E0E2FC5BDEC00CB9221 /* GoogleService-Info.plist */; };
+		2EF3CCD82FC5CCEA00826E05 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2EF3CCD72FC5CCEA00826E05 /* FirebaseCore */; };
+		2EF3CCDA2FC5CCEE00826E05 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2EF3CCD92FC5CCEE00826E05 /* FirebaseAuth */; };
+		2EF3CCDC2FC5CCF600826E05 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2EF3CCDB2FC5CCF600826E05 /* FirebaseFirestore */; };
+		2EF3CCDE2FC708B900826E05 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3CCDD2FC708B900826E05 /* Constants.swift */; };
+		2EF3CCE32FC717AB00826E05 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3CCE12FC717AB00826E05 /* MessageCell.swift */; };
+		2EF3CCE42FC717AB00826E05 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3CCE22FC717AB00826E05 /* MessageCell.xib */; };
+		2EF3CCE72FC9C0B300826E05 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2EF3CCE62FC9C0B300826E05 /* IQKeyboardManagerSwift */; };
+		43618CBC01CF7E32FECF7C07 /* libPods-Flash Chat iOS13.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F64A36E133B48EFFD1ADD3BB /* libPods-Flash Chat iOS13.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,13 +41,29 @@
 		0B62818E235DF01000E35CAF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0B628190235DF01B00E35CAF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		0B62819D235F0F4D00E35CAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		24B85D1BE3CE92D1C9D226EC /* Pods-Flash Chat iOS13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE11E0E2FC5BDEC00CB9221 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2EF3CCDD2FC708B900826E05 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2EF3CCE12FC717AB00826E05 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		2EF3CCE22FC717AB00826E05 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		993F54AA65B9A755059EF652 /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
+		F64A36E133B48EFFD1ADD3BB /* libPods-Flash Chat iOS13.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flash Chat iOS13.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2E8342442FC4A5D800731CA2 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0B628170235DEE8100E35CAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF3CCE72FC9C0B300826E05 /* IQKeyboardManagerSwift in Frameworks */,
+				2EF3CCD82FC5CCEA00826E05 /* FirebaseCore in Frameworks */,
+				2EF3CCDC2FC5CCF600826E05 /* FirebaseFirestore in Frameworks */,
+				2EF3CCDA2FC5CCEE00826E05 /* FirebaseAuth in Frameworks */,
+				43618CBC01CF7E32FECF7C07 /* libPods-Flash Chat iOS13.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +76,8 @@
 				0B62819D235F0F4D00E35CAF /* README.md */,
 				0B628175235DEE8100E35CAF /* Flash Chat iOS13 */,
 				0B628174235DEE8100E35CAF /* Products */,
+				BF2173D19B37216E27876FD8 /* Pods */,
+				59EA29B49BDF67F6672F5EF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,12 +94,14 @@
 			children = (
 				0B628176235DEE8100E35CAF /* AppDelegate.swift */,
 				0B628178235DEE8100E35CAF /* SceneDelegate.swift */,
-				0B628194235DF03A00E35CAF /* Models */,
+				2E8342442FC4A5D800731CA2 /* Models */,
 				0B628193235DF03400E35CAF /* Views */,
 				0B628192235DF02000E35CAF /* Controllers */,
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
+				2EE11E0E2FC5BDEC00CB9221 /* GoogleService-Info.plist */,
+				2EF3CCDD2FC708B900826E05 /* Constants.swift */,
 			);
 			path = "Flash Chat iOS13";
 			sourceTree = "<group>";
@@ -92,15 +121,27 @@
 			isa = PBXGroup;
 			children = (
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
+				2EF3CCE12FC717AB00826E05 /* MessageCell.swift */,
+				2EF3CCE22FC717AB00826E05 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		0B628194235DF03A00E35CAF /* Models */ = {
+		59EA29B49BDF67F6672F5EF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F64A36E133B48EFFD1ADD3BB /* libPods-Flash Chat iOS13.a */,
 			);
-			path = Models;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2173D19B37216E27876FD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24B85D1BE3CE92D1C9D226EC /* Pods-Flash Chat iOS13.debug.xcconfig */,
+				993F54AA65B9A755059EF652 /* Pods-Flash Chat iOS13.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat iOS13" */;
 			buildPhases = (
+				57365FDB8E173D8D696FCFD4 /* [CP] Check Pods Manifest.lock */,
 				0B62816F235DEE8100E35CAF /* Sources */,
 				0B628170235DEE8100E35CAF /* Frameworks */,
 				0B628171235DEE8100E35CAF /* Resources */,
@@ -117,6 +159,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2E8342442FC4A5D800731CA2 /* Models */,
 			);
 			name = "Flash Chat iOS13";
 			productName = "Flash Chat iOS13";
@@ -147,6 +192,10 @@
 				Base,
 			);
 			mainGroup = 0B62816A235DEE8100E35CAF;
+			packageReferences = (
+				2EE11E102FC5C6E200CB9221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2EF3CCE52FC9C0B300826E05 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 0B628174235DEE8100E35CAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -162,13 +211,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
+				2EF3CCE42FC717AB00826E05 /* MessageCell.xib in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
+				2EE11E0F2FC5BDEC00CB9221 /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57365FDB8E173D8D696FCFD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flash Chat iOS13-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B62816F235DEE8100E35CAF /* Sources */ = {
@@ -179,8 +255,10 @@
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
+				2EF3CCDE2FC708B900826E05 /* Constants.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
+				2EF3CCE32FC717AB00826E05 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,16 +400,18 @@
 		};
 		0B628188235DEE8400E35CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B85D1BE3CE92D1C9D226EC /* Pods-Flash Chat iOS13.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = 8APCJS3335;
 				INFOPLIST_FILE = "Flash Chat iOS13/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Flash-Chat-iOS13";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.adelnabil.Flash-Chat-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -340,16 +420,18 @@
 		};
 		0B628189235DEE8400E35CAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993F54AA65B9A755059EF652 /* Pods-Flash Chat iOS13.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = 8APCJS3335;
 				INFOPLIST_FILE = "Flash Chat iOS13/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Flash-Chat-iOS13";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.adelnabil.Flash-Chat-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -378,6 +460,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2EE11E102FC5C6E200CB9221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.13.0;
+			};
+		};
+		2EF3CCE52FC9C0B300826E05 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2EF3CCD72FC5CCEA00826E05 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EE11E102FC5C6E200CB9221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		2EF3CCD92FC5CCEE00826E05 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EE11E102FC5C6E200CB9221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2EF3CCDB2FC5CCF600826E05 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EE11E102FC5C6E200CB9221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2EF3CCE62FC9C0B300826E05 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EF3CCE52FC9C0B300826E05 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B62816B235DEE8100E35CAF /* Project object */;
 }

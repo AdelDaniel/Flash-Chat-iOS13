@@ -7,14 +7,23 @@
 //
 
 import UIKit
+import FirebaseCore
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        /// Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+        IQKeyboardManager.shared.isEnabled = true
+        
+        // Tap to resign (if using Resign subspec)
+        IQKeyboardManager.shared.resignOnTouchOutside = true
+
+
         return true
     }
 
