@@ -28,4 +28,4 @@ fastlane/test_output/
 *.xcarchive
 
 # Firebase 
-Flash Chat iOS13/GoogleService-Info.plist
+*/GoogleService-Info.plist
